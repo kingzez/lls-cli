@@ -1,0 +1,52 @@
+{
+  "name": "lls-cli",
+  "version": "1.0.1",
+  "description": "list node-script and execute it",
+  "type": "module",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": {
+    ".": "./build/index.js"
+  },
+  "bin": {
+    "lls": "build/index.js"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  },
+  "scripts": {
+    "fmt": "prettier --write .",
+    "build": "tsc --project tsconfig.json"
+  },
+  "keywords": [
+    "script list",
+    "node script"
+  ],
+  "author": "Vincent.W",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "prompts": "^2.4.2",
+    "zx": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/prompts": "^2.4.1",
+    "prettier": "^2.7.1"
+  },
+  "files": [
+    "build"
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "endOfLine": "lf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingzez/lls-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kingzez/lls-cli/issues"
+  },
+  "homepage": "https://github.com/kingzez/lls-cli#readme"
+}
