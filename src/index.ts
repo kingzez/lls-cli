@@ -9,6 +9,7 @@ try {
   const choices = Object.keys(scripts).map((script) => ({
     title: script,
     value: script,
+    description: scripts[script],
   }))
 
   const options = [
