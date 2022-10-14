@@ -1,6 +1,6 @@
 {
   "name": "lls-cli",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "list node-script and execute it",
   "type": "module",
   "main": "./build/index.js",
