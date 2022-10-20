@@ -9,7 +9,7 @@ A tool of list nodejs project node scripts and execute it.
 
 <p align="center">
 	<br>
-	<img src="lls-cli.gif" width="700">
+	<img src="lls-cli.gif" >
 	<br>
 </p>
 
@@ -23,13 +23,16 @@ npm i -g lls-cli
 
 ## Usage
 
-Execute `lls` in the project root directory, you will see node scripts list
+Execute `lls` in the project root directory, you will see node scripts list.
+
+Auto use your project packageManager (`pnpm`,`yarn`,`npm`) run it.
 
 ```bash
 $ lls
 
 ? select node script › - Use arrow-keys. Return to submit.
 ❯   fmt - prettier --write .
+    dev
     build
 ```
 

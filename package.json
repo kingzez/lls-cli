@@ -1,6 +1,6 @@
 {
   "name": "lls-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "list node-script and execute it",
   "type": "module",
   "main": "./build/index.js",
@@ -16,6 +16,7 @@
   },
   "scripts": {
     "fmt": "prettier --write .",
+    "dev": "tsc -w --project tsconfig.json",
     "build": "tsc --project tsconfig.json"
   },
   "keywords": [
