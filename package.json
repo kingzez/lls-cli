@@ -1,6 +1,6 @@
 {
   "name": "lls-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "list node-script and execute it",
   "type": "module",
   "main": "./build/index.js",
@@ -20,6 +20,9 @@
     "build": "tsc --project tsconfig.json"
   },
   "keywords": [
+    "lls",
+    "cli",
+    "lls-cli",
     "script list",
     "node script"
   ],

@@ -34,6 +34,12 @@ $ lls
 ❯   fmt - prettier --write .
     dev
     build
+
+pnpm run fmt
+# or
+yarn run fmt
+# or
+npm run fmt
 ```
 
 ## License
